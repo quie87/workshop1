@@ -1,6 +1,12 @@
 <?php
 
-require_once("view.php");
+require_once("View.php");
+require_once("functions.php");
+
+//Hämta in en test fil med text
+$text = file_get_contents("test.txt");
+
+$view = new View($text);
 
 ?>
 
@@ -15,8 +21,8 @@ require_once("view.php");
 <body>
     <header><h1>Code base metrics</h1></header>
     <div class="main content">
-        <?= 
-            $view->show();
+        <?php
+            echo $view->show();
          ?>
     </div>
 </body>
