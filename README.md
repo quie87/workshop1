@@ -1,5 +1,5 @@
 # workshop1
-Kodbasanalys
+Ett skol projekt där vi fick par-programmera under några timmar.
 
 ## Projekt plan
 Detta ett program som ska analysera kodbaser.
